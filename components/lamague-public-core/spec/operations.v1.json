@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "scope": "LAMAGUE Public Core subset",
+  "operations": {
+    "O": {
+      "name": "Observe",
+      "meaning": "Record the stated target, condition, or report without silently changing it.",
+      "accepts": [
+        "statement",
+        "state",
+        "report"
+      ],
+      "returns": "observation"
+    },
+    "E": {
+      "name": "Evidence",
+      "meaning": "Attach or inspect recoverable support without converting support into certainty.",
+      "accepts": [
+        "observation",
+        "claim"
+      ],
+      "returns": "evidenced_state"
+    },
+    "U": {
+      "name": "Unknown",
+      "meaning": "Declare unresolved information explicitly and preserve its type.",
+      "accepts": [
+        "state",
+        "claim"
+      ],
+      "returns": "state_with_unknown"
+    },
+    "I": {
+      "name": "Invariant",
+      "meaning": "Declare what must survive transformation.",
+      "accepts": [
+        "state",
+        "transition"
+      ],
+      "returns": "protected_state"
+    },
+    "G": {
+      "name": "Guard",
+      "meaning": "Check visible authority, boundaries, consent, affected parties, and recovery conditions.",
+      "accepts": [
+        "protected_state",
+        "transition"
+      ],
+      "returns": "guarded_state"
+    },
+    "V": {
+      "name": "Vector Invert",
+      "meaning": "Preserve legitimate intent while generating another route around a blocked or harmful structure.",
+      "accepts": [
+        "blocked_state",
+        "conflict"
+      ],
+      "returns": "alternative_path"
+    },
+    "F": {
+      "name": "Fold",
+      "meaning": "Preserve the state, evidence, unknowns, failures, and lineage in recoverable memory.",
+      "accepts": [
+        "state",
+        "result"
+      ],
+      "returns": "memory_record"
+    },
+    "Y": {
+      "name": "Yield",
+      "meaning": "Produce the bounded result with its scope, unknowns, authority, dissent, and recovery path visible.",
+      "accepts": [
+        "guarded_state",
+        "memory_record"
+      ],
+      "returns": "bounded_output"
+    },
+    "Z": {
+      "name": "Compress / Expand",
+      "meaning": "Compress when protected meaning is recoverable; expand when context, authority, uncertainty, dissent, risk, or recovery is insufficient.",
+      "accepts": [
+        "semantic_packet"
+      ],
+      "returns": "compressed_or_expanded_packet"
+    }
+  }
+}

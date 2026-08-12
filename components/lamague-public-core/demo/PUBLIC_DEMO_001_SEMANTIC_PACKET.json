@@ -1,0 +1,89 @@
+{
+  "case_id": "PUBLIC_DEMO_001",
+  "source_statement": "Release an experimental decision-support tool to a small, monitored group. Preserve the disagreement between the human advocate, safety model, and expert. A credible irreversible harm must trigger an immediate provisional halt. Restart requires affected-party review, expert approval, operator readiness, and independent integrity verification.",
+  "purpose": "test a bounded release without crossing an irreversible-harm boundary",
+  "claim": "a controlled pilot may proceed only while the irreversible path remains closed",
+  "operation_path": [
+    "O",
+    "E",
+    "U",
+    "I",
+    "G",
+    "V",
+    "F",
+    "Y"
+  ],
+  "evidence": [
+    "pre-release test record",
+    "monitoring plan",
+    "rollback procedure"
+  ],
+  "unknowns": [
+    "rare irreversible failure mode",
+    "long-term affected-party consequences"
+  ],
+  "invariants": [
+    "credible irreversible harm triggers provisional halt",
+    "dissent remains attributable",
+    "no single gate may restart the system"
+  ],
+  "authority": [
+    "human operator authorises only a bounded pilot"
+  ],
+  "participants": [
+    "human advocate",
+    "safety model",
+    "domain expert",
+    "system operator",
+    "Silent Witness"
+  ],
+  "affected_parties": [
+    "pilot participants",
+    "people indirectly affected by decisions"
+  ],
+  "boundaries": [
+    "small monitored cohort",
+    "no autonomous external control",
+    "immediate rollback capability"
+  ],
+  "dissent": [
+    {
+      "party": "human advocate",
+      "position": "release now because people may benefit"
+    },
+    {
+      "party": "safety model",
+      "position": "do not release while irreversible unknowns remain"
+    },
+    {
+      "party": "domain expert",
+      "position": "release only through a controlled pilot"
+    }
+  ],
+  "value_flow": [
+    {
+      "source": "pilot participants",
+      "recipient": "research programme",
+      "kind": "experience and outcome data",
+      "consent": "explicit and revocable"
+    }
+  ],
+  "consequences": [
+    "bounded pilot begins",
+    "monitoring records accumulate",
+    "credible irreversible harm causes immediate provisional halt"
+  ],
+  "recovery": [
+    "restore previous operational state",
+    "remove participant access",
+    "preserve incident evidence",
+    "provide affected-party support"
+  ],
+  "provenance": [
+    "Public Core demonstration specification",
+    "Silent Witness Gate constitutional addendum"
+  ],
+  "risk_level": "high",
+  "irreversible": false,
+  "decoder_confidence": 0.92
+}

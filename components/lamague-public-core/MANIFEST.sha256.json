@@ -1,0 +1,67 @@
+{
+  "title": "LAMAGUE Public Core \u2014 shipped component integrity manifest",
+  "version": "1.0.0-packet09",
+  "component": "lamague.public_core_validator",
+  "generated_by": "Packet 09 OPUS08-P1-005 repair",
+  "file_count": 11,
+  "manifest_self_excluded": true,
+  "manifest_self_exclusion_reason": "MANIFEST.sha256.json is excluded from its own entries because a self-referential content hash is circular: changing the file to record its own hash would invalidate that hash. Verify this file via the campaign packet07_materialization_manifest / tree seal instead.",
+  "verification_command": "python3 -c \"import json,hashlib,sys; from pathlib import Path; m=json.loads(Path('MANIFEST.sha256.json').read_text()); root=Path('.'); bad=[]; [bad.append(e['path']) for e in m['files'] if not (root/e['path']).is_file() or hashlib.sha256((root/e['path']).read_bytes()).hexdigest()!=e['sha256']]; sys.exit('FAIL: '+str(bad) if bad else 0)\"",
+  "files": [
+    {
+      "path": "NOTICE",
+      "bytes": 1540,
+      "sha256": "277d1dc27618576f407e1f6eb340c8287e4c8c264d1eadcef71b6dafe2138371"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2458,
+      "sha256": "4fb1b460c77b16324c1de2d258b08c37b0684a70aebe9a9f3233f27ab5d82487"
+    },
+    {
+      "path": "demo/PUBLIC_DEMO_001_SEMANTIC_PACKET.json",
+      "bytes": 2549,
+      "sha256": "96b182f037c9464a9913eb64a790d2242234be8a15d809fc643def1c1d38b1b1"
+    },
+    {
+      "path": "demo/PUBLIC_DEMO_001_VALIDATION_REPORT.json",
+      "bytes": 2003,
+      "sha256": "203b058c43df6281a58aa9a8c4cb53eb05c49b320d1abceae5b210ec64f57056"
+    },
+    {
+      "path": "demo/PUBLIC_DEMO_001_WORKED_EXPLANATION.md",
+      "bytes": 991,
+      "sha256": "6df1cdab7e811c3f8d46266cd1390b856cb12ebf693de42b07d0cb9c1330ed89"
+    },
+    {
+      "path": "spec/PUBLIC_CORE_SPECIFICATION_v1.0.md",
+      "bytes": 2424,
+      "sha256": "e304d415b5966eb1bc455467576a860677eb8de858850241824f4342596cc209"
+    },
+    {
+      "path": "spec/laws.v1.json",
+      "bytes": 632,
+      "sha256": "ae4115a92faab6535a65d2a8584641ab709387b2354915a74c802e9abc4412f8"
+    },
+    {
+      "path": "spec/operations.v1.json",
+      "bytes": 2379,
+      "sha256": "6f4b37a626ac0ea9b4ad51c3d5d9a948896b11a58767d2d57af7533c6a2b5d18"
+    },
+    {
+      "path": "spec/semantic-packet.schema.json",
+      "bytes": 2257,
+      "sha256": "b07c1bcbb40caaa97dc3518ba22852eadcf1d538780e3cd22a7907c915ceb20a"
+    },
+    {
+      "path": "src/public_core_validator.py",
+      "bytes": 6549,
+      "sha256": "639d3743a4f1e21dd385c010e9f93983b939914bef64813ed536a8fd1115cf42"
+    },
+    {
+      "path": "tests/test_public_core.py",
+      "bytes": 3724,
+      "sha256": "b886d061fc7f10d49e5ec0e0ff1dd76089e1f329809b28ee95405963a4ed30da"
+    }
+  ]
+}

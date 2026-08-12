@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LAMAGUE Public Core Semantic Packet v1.0",
+  "type": "object",
+  "required": [
+    "case_id",
+    "purpose",
+    "claim",
+    "operation_path",
+    "unknowns",
+    "invariants",
+    "authority",
+    "affected_parties",
+    "recovery",
+    "risk_level",
+    "irreversible"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "claim": {
+      "type": "string"
+    },
+    "operation_path": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "O",
+          "E",
+          "U",
+          "I",
+          "G",
+          "V",
+          "F",
+          "Y",
+          "Z"
+        ]
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "invariants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authority": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "participants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_parties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "boundaries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dissent": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "value_flow": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "consequences": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recovery": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risk_level": {
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ]
+    },
+    "irreversible": {
+      "type": "boolean"
+    },
+    "decoder_confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  },
+  "additionalProperties": false
+}

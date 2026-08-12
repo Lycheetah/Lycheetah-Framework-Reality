@@ -1,0 +1,66 @@
+{
+  "experiment_id": "E008-SILENT-REPAIR-LOCK",
+  "source_artifacts": [
+    {
+      "source_id": "synthetic_image",
+      "media_type": "image/jpeg",
+      "sha256": "79e9aaef838bdb51b01e0b1b6afe23af2f410d7b22e122e89bd72f1693a88b38",
+      "description": "Synthetic Experiment 008 inequality-trap source image."
+    }
+  ],
+  "fields": [
+    {
+      "field_id": "accuracy_A",
+      "semantic_name": "accuracy",
+      "raw_text": "100",
+      "normalized_value": 100,
+      "unit": "dimensionless",
+      "source_id": "synthetic_image",
+      "state": "OBSERVED",
+      "confidence": 1.0
+    },
+    {
+      "field_id": "tur_rhs",
+      "semantic_name": "tur_rhs",
+      "raw_text": "110",
+      "normalized_value": 110,
+      "unit": "dimensionless",
+      "source_id": "synthetic_image",
+      "state": "OBSERVED",
+      "confidence": 1.0
+    }
+  ],
+  "expressions": [
+    {
+      "expression_id": "tur_printed",
+      "source_id": "synthetic_image",
+      "raw_expression": "100 ≥ 110 → PASS",
+      "left_value": 100,
+      "raw_operator": "≥",
+      "right_value": 110,
+      "printed_outcome": "PASS",
+      "canonical_operator": "≤",
+      "canonical_scope": "declared synthetic TUR profile"
+    },
+    {
+      "expression_id": "energy_time_printed",
+      "source_id": "synthetic_image",
+      "raw_expression": "6.0e-35 < 5.27e-35 → FAIL",
+      "left_value": 6.0e-35,
+      "raw_operator": "<",
+      "right_value": 5.27e-35,
+      "printed_outcome": "FAIL",
+      "canonical_operator": "≥",
+      "canonical_scope": "declared synthetic energy-time comparison"
+    }
+  ],
+  "required_semantic_names": ["accuracy", "tur_rhs"],
+  "calculation_requirements": {},
+  "entropy_closure": null,
+  "human_review": {
+    "required": true,
+    "status": "pending",
+    "reviewer": null,
+    "notes": "Synthetic symbolic-comparison benchmark only."
+  }
+}

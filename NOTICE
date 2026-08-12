@@ -1,0 +1,44 @@
+NOTICE — Third-party and upstream attribution
+
+This repository is an extraction under top-level MIT copyright:
+  Copyright (c) 2026 Mackenzie Conor James Clark (Lycheetah Framework)
+
+Canonical public author line: Mackenzie Conor James Clark.
+Component NOTICE files retain exact upstream copyright strings, which may
+use shorter historical name forms (Mackenzie Clark / Mackenzie C. J. Clark).
+
+Admitted sources (all MIT at inspected immutable refs):
+
+- source_repository: github:Lycheetah/Lamague-Public@main
+  immutable_ref: 56c4a7d25b4d29373bd224211848ae6a02ed59bb
+  licence_identity: MIT License
+  licence_text_sha256: 2e6c765f9362da1e5259aede2871d34fd127bf200db38eb40a63426c1c7825db
+  copyright_line_observed: Copyright (c) 2026 Mackenzie Clark
+  covered paths (examples): src/public_core_validator.py, tests/test_public_core.py, spec/*, demo/PUBLIC_DEMO_001_*, MANIFEST.sha256.json
+
+- source_repository: local:time-integrity-module (sealed local checkout; path not embedded)
+  immutable_ref: 587fe912e822dbf0ede4597e90a31253e63a2f3b
+  licence_identity: MIT License
+  licence_text_sha256: c531d6211ffd2c8aedd5ad72cb80778f1b3be715fa6110153a147d2b08dc1539
+  copyright_line_observed: Copyright (c) 2026 Mackenzie Conor James Clark (Lycheetah)
+  covered paths (examples): engine/tim_evidence_gate_v0_3.py, engine/tim_engine_v0_2.py, tests/*, schema/*, examples/E008_SILENT_REPAIR_PACKET.json
+
+- source_repository: local:CODEX_AURA_PRIME/public-archive/main
+  immutable_ref: 516850fdc4e0ec3b85c121b252379644f18f20a3
+  licence_identity: MIT License
+  licence_text_sha256: 2e6c765f9362da1e5259aede2871d34fd127bf200db38eb40a63426c1c7825db
+  copyright_line_observed: Copyright (c) 2026 Mackenzie Clark
+  covered paths (examples): 01_persona_validator/persona_validator.py, 01_persona_validator/sol_persona.yaml, 01_persona_validator/requirements.txt, 02_cascade_provenance/provenance_checker.py, 02_cascade_provenance/requirements.txt
+
+- source_repository: github:Lycheetah/cascade-framework@main
+  immutable_ref: 4a935d96ae2ebe67ca9a7b3e3bda452f2d045977
+  licence_identity: MIT License
+  licence_text_sha256: ea2cc6643a08d2c80caa337592e03d51e5134487ff7f51c6618b883994fd35df
+  copyright_line_observed: Copyright (c) 2026 Mackenzie C. J. Clark (Lycheetah Foundation)
+  covered paths (examples): Experiments/cascade_engine.py, Experiments/domain_template.py
+
+LANE is excluded from this tree (technical FAIL / REPAIR_REQUIRED; private source).
+Aura document exports are not copied; see docs/AURA_ORIGIN_POINTER.md.
+
+Each components/*/NOTICE file carries the upstream MIT text (with a short
+extraction header) for the component's source licence.

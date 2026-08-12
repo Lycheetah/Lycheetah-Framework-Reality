@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "laws": [
+    {
+      "id": "L1",
+      "text": "No compression without recovery.",
+      "machine_condition": "Z is permitted only when all protected fields are recoverable."
+    },
+    {
+      "id": "L2",
+      "text": "No consequential meaning without visible authority.",
+      "machine_condition": "Consequential transitions require at least one declared authority source."
+    },
+    {
+      "id": "L3",
+      "text": "No transformation may erase protected uncertainty.",
+      "machine_condition": "Every reference unknown must remain, be evidentially resolved, or produce a visible fork."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software extraction, please cite it as below."
+type: software
+title: "Lycheetah-Framework-Reality"
+abstract: >-
+  Local technical-reality extraction of inspectable tools from the Lycheetah
+  Framework research history. Repository self-tests are internal conformance
+  only. This citation describes software, not a peer-reviewed paper.
+authors:
+  - family-names: Clark
+    given-names: Mackenzie Conor James
+    affiliation: Lycheetah Framework
+license: MIT
+version: "0.1.0-local-candidate"
+date-released: "2026-08-12"
+keywords:
+  - software extraction
+  - offline tools
+  - technical reality
+# No journal, DOI, or preprint identifier is claimed by this file.

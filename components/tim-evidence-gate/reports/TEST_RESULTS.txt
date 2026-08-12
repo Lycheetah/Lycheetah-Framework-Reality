@@ -1,0 +1,30 @@
+test_cross_panel_exponent_conflict_is_preserved (test_tim_evidence_gate_v0_3.TIMEvidenceGateTests.test_cross_panel_exponent_conflict_is_preserved) ... ok
+test_energy_time_operator_trap (test_tim_evidence_gate_v0_3.TIMEvidenceGateTests.test_energy_time_operator_trap) ... ok
+test_entropy_closure_failure (test_tim_evidence_gate_v0_3.TIMEvidenceGateTests.test_entropy_closure_failure) ... ok
+test_evidence_hash_is_deterministic (test_tim_evidence_gate_v0_3.TIMEvidenceGateTests.test_evidence_hash_is_deterministic) ... ok
+test_missing_data_blocks_calculations_without_invention (test_tim_evidence_gate_v0_3.TIMEvidenceGateTests.test_missing_data_blocks_calculations_without_invention) ... ok
+test_tur_operator_trap_is_not_repaired (test_tim_evidence_gate_v0_3.TIMEvidenceGateTests.test_tur_operator_trap_is_not_repaired) ... ok
+test_unit_missing_is_flagged (test_tim_evidence_gate_v0_3.TIMEvidenceGateTests.test_unit_missing_is_flagged) ... ok
+test_unknown_cannot_contain_value (test_tim_evidence_gate_v0_3.TIMEvidenceGateTests.test_unknown_cannot_contain_value) ... ok
+test_accuracy (test_tim_v1_1.TIMV11Tests.test_accuracy) ... ok
+test_efficiency_above_one_is_inconsistent (test_tim_v1_1.TIMV11Tests.test_efficiency_above_one_is_inconsistent) ... ok
+test_energy_time_not_default (test_tim_v1_1.TIMV11Tests.test_energy_time_not_default) ... ok
+test_energy_time_requires_theorem (test_tim_v1_1.TIMV11Tests.test_energy_time_requires_theorem) ... ok
+test_energy_time_with_theorem (test_tim_v1_1.TIMV11Tests.test_energy_time_with_theorem) ... ok
+test_entropy_closure (test_tim_v1_1.TIMV11Tests.test_entropy_closure) ... ok
+test_entropy_contradiction_rejected (test_tim_v1_1.TIMV11Tests.test_entropy_contradiction_rejected) ... ok
+test_eta_is_diagnostic (test_tim_v1_1.TIMV11Tests.test_eta_is_diagnostic) ... ok
+test_explicit_erased_bits (test_tim_v1_1.TIMV11Tests.test_explicit_erased_bits) ... ok
+test_gamma_requires_measurement_erased_bits (test_tim_v1_1.TIMV11Tests.test_gamma_requires_measurement_erased_bits) ... ok
+test_hash_is_deterministic (test_tim_v1_1.TIMV11Tests.test_hash_is_deterministic) ... ok
+test_landauer_not_inferred_from_i_tick (test_tim_v1_1.TIMV11Tests.test_landauer_not_inferred_from_i_tick) ... ok
+test_named_erase_all_assumption (test_tim_v1_1.TIMV11Tests.test_named_erase_all_assumption) ... ok
+test_negative_entropy_rejected (test_tim_v1_1.TIMV11Tests.test_negative_entropy_rejected) ... ok
+test_tur_missing_assumptions (test_tim_v1_1.TIMV11Tests.test_tur_missing_assumptions) ... ok
+test_tur_not_default (test_tim_v1_1.TIMV11Tests.test_tur_not_default) ... ok
+test_tur_profile_calculates (test_tim_v1_1.TIMV11Tests.test_tur_profile_calculates) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.002s
+
+OK

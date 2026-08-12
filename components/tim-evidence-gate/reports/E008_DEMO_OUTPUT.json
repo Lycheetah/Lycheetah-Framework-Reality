@@ -1,0 +1,99 @@
+{
+  "specification": "TIM v1.2",
+  "gate": "TIM Evidence Gate v0.3",
+  "experiment_id": "E008-DEMO",
+  "outcome": "INCONSISTENT",
+  "immutable_evidence": {
+    "fields": [
+      {
+        "field_id": "A",
+        "semantic_name": "accuracy",
+        "raw_text": "100",
+        "normalized_value": 100.0,
+        "unit": "dimensionless",
+        "source_id": "panel_A",
+        "state": "OBSERVED",
+        "confidence": null
+      },
+      {
+        "field_id": "RHS",
+        "semantic_name": "tur_rhs",
+        "raw_text": "110",
+        "normalized_value": 110.0,
+        "unit": "dimensionless",
+        "source_id": "panel_A",
+        "state": "OBSERVED",
+        "confidence": null
+      }
+    ],
+    "expressions": [
+      {
+        "expression_id": "TUR_PRINTED",
+        "source_id": "panel_A",
+        "raw_expression": "100 \u2265 110 \u2192 PASS",
+        "left_value": 100.0,
+        "raw_operator": "\u2265",
+        "right_value": 110.0,
+        "printed_outcome": "PASS",
+        "canonical_operator": "\u2264",
+        "canonical_scope": "declared synthetic TUR profile"
+      }
+    ]
+  },
+  "evidence_hash": "ac4b8cc2514b01bff56086158a632eea204923b96ee13ae9d528bf4c0a509ada",
+  "conflicts": [
+    {
+      "code": "OPERATOR_CONFLICT",
+      "raw_operator": "\u2265",
+      "canonical_operator": "\u2264",
+      "message": "Printed and canonical operators differ. Both branches are preserved."
+    },
+    {
+      "code": "PRINTED_OUTCOME_CONFLICT",
+      "printed_outcome": "PASS",
+      "raw_expression_truth": false,
+      "message": "Printed PASS/FAIL label conflicts with the literal printed expression."
+    }
+  ],
+  "expression_audits": [
+    {
+      "expression_id": "TUR_PRINTED",
+      "source_id": "panel_A",
+      "raw_observation": {
+        "raw_expression": "100 \u2265 110 \u2192 PASS",
+        "left_value": 100.0,
+        "raw_operator": "\u2265",
+        "right_value": 110.0,
+        "printed_outcome": "PASS",
+        "literal_truth": false
+      },
+      "canonical_check": {
+        "operator": "\u2264",
+        "truth": true,
+        "scope": "declared synthetic TUR profile"
+      },
+      "conflicts": [
+        {
+          "code": "OPERATOR_CONFLICT",
+          "raw_operator": "\u2265",
+          "canonical_operator": "\u2264",
+          "message": "Printed and canonical operators differ. Both branches are preserved."
+        },
+        {
+          "code": "PRINTED_OUTCOME_CONFLICT",
+          "printed_outcome": "PASS",
+          "raw_expression_truth": false,
+          "message": "Printed PASS/FAIL label conflicts with the literal printed expression."
+        }
+      ],
+      "evidence_hash": "d4f295e03aeeec1a28e75cc7968565bbcc24351efaa2be85708c1616b81a7a39"
+    }
+  ],
+  "blocked_calculations": [],
+  "ready_for_deterministic_engine": false,
+  "silent_repair_lock": {
+    "enabled": true,
+    "rule": "Raw observations are immutable and cannot be replaced by canonical interpretations."
+  },
+  "semantic_hash": "ae309c574e087148cac0b06eca64fb1dce3160a75723c7af320d304e57c23500"
+}

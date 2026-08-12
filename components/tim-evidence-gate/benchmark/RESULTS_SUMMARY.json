@@ -1,0 +1,40 @@
+{
+  "benchmark": "TIM v1.2 synthetic multimodal integrity benchmark",
+  "primary_runs": 17,
+  "experiments": {
+    "E004": {
+      "runs": 5,
+      "core_passes": 5,
+      "result": "PASS",
+      "finding": "Both arithmetic contradictions preserved in all runs."
+    },
+    "E005": {
+      "runs": 3,
+      "semantic_clean_control_passes": 2,
+      "false_contradictions": 0,
+      "strict_json_only_passes": 0,
+      "no_response": 1,
+      "result": "SEMANTIC_PASS_FORMAT_AND_RELIABILITY_FAIL"
+    },
+    "E006": {
+      "runs": 3,
+      "core_passes": 3,
+      "result": "PASS",
+      "finding": "Both exponent values preserved without canonical selection."
+    },
+    "E007": {
+      "runs": 3,
+      "core_passes": 3,
+      "invented_values": 0,
+      "result": "PASS_WITH_UNIT_SCHEMA_LIMITATION"
+    },
+    "E008": {
+      "runs": 3,
+      "energy_time_errors_detected": 3,
+      "tur_operator_preserved": 0,
+      "silent_repairs": 3,
+      "result": "REPEATED_VISUAL_SYMBOL_PRESERVATION_FAILURE"
+    }
+  },
+  "claim_boundary": "Synthetic benchmark only; not physical validation or universal proof."
+}
