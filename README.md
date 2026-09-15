@@ -13,8 +13,19 @@ claim that every prior idea was correct, and not a defence of history.
 **Provenance:** Lycheetah Framework  
 **Licence:** MIT (see `LICENSE` and `NOTICE`)  
 **Repository:** https://github.com/Lycheetah/Lycheetah-Framework-Reality  
-**Status:** public technical extraction; repository self-tests are internal conformance,
+**Status:** public historical technical extraction; repository self-tests are internal conformance,
 not peer review or external validation.
+
+## Surface status — 2026-09-15
+
+**HISTORICAL EXTRACTION / NOT CURRENT FRONTIER FRONT DOOR**
+
+This repository remains public as a dated record of the Packet 05 extraction
+and its 2026-08-12 witness. It is not a complete or current representation of
+the Lycheetah Frontier Lab, and current frontier work must not be inferred from
+its age, contents or repository description. A future frontier lane may be
+published only through a separate reviewed release; this tree will not silently
+absorb new research or upgrade old evidence.
 
 ## Six components
 

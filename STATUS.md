@@ -3,6 +3,10 @@
 **Record date:** 2026-08-12  
 **Latest local admission:** 2026-08-12; six bounded component witnesses reproduced and
 the provenance fail-closed regression passed 10/10 focused tests  
+**Surface designation:** `HISTORICAL_EXTRACTION` — frozen at Packet 05 / 2026-08-12; boundary reviewed 2026-09-15
+**Public-front-door boundary:** This repository is not the current public face of
+the Lycheetah Frontier Lab. Current frontier lanes require their own reviewed
+publication decision and evidence; they are not represented by this status record.
 **External validation:** none recorded  
 **Peer review:** none recorded  
 **Publication remote:** https://github.com/Lycheetah/Lycheetah-Framework-Reality  
