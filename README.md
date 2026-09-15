@@ -27,6 +27,10 @@ its age, contents or repository description. A future frontier lane may be
 published only through a separate reviewed release; this tree will not silently
 absorb new research or upgrade old evidence.
 
+The selected current public frontier release surface is
+[`lycheetah-frontier-public`](https://github.com/Lycheetah/lycheetah-frontier-public).
+This historical tree remains separate from that release.
+
 ## Six components
 
 | Component | Maturity | Problem (one line) | First command | Packet 05 measure |

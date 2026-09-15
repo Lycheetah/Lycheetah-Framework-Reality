@@ -5,8 +5,11 @@
 the provenance fail-closed regression passed 10/10 focused tests  
 **Surface designation:** `HISTORICAL_EXTRACTION` — frozen at Packet 05 / 2026-08-12; boundary reviewed 2026-09-15
 **Public-front-door boundary:** This repository is not the current public face of
-the Lycheetah Frontier Lab. Current frontier lanes require their own reviewed
-publication decision and evidence; they are not represented by this status record.
+the Lycheetah Frontier Lab. The selected public frontier release surface is
+[`lycheetah-frontier-public`](https://github.com/Lycheetah/lycheetah-frontier-public),
+currently limited to a reviewed SpL-X v0.2 proposal. Other frontier lanes require
+their own reviewed publication decision and evidence; they are not represented by
+this status record.
 **External validation:** none recorded  
 **Peer review:** none recorded  
 **Publication remote:** https://github.com/Lycheetah/Lycheetah-Framework-Reality  
