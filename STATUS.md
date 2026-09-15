@@ -7,7 +7,7 @@ the provenance fail-closed regression passed 10/10 focused tests
 **Public-front-door boundary:** This repository is not the current public face of
 the Lycheetah Frontier Lab. The selected public frontier release surface is
 [`lycheetah-frontier-public`](https://github.com/Lycheetah/lycheetah-frontier-public),
-currently limited to a reviewed SpL-X v0.2 proposal. Other frontier lanes require
+with selected SpL-X, Tianxia, Zhengming and native-system research. Other frontier lanes require
 their own reviewed publication decision and evidence; they are not represented by
 this status record.
 **External validation:** none recorded  
